@@ -1,0 +1,15 @@
+[[social]]
+    identifier = "bilibili"
+    name       = "Bilibili"
+    url        = "https://space.bilibili.com/1237871714"
+
+    [social.params]
+        icon = "brand-bilibili"
+
+[[social]]
+    identifier = "discord"
+    name       = "Discord"
+    url        = "https://discord.com/users/1094141177189646399"
+
+    [social.params]
+        icon = "brand-discord"

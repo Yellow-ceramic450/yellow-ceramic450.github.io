@@ -1,0 +1,16 @@
+baseURL                = "https://blog.catmoimoi.ccwu.cc/"
+locale                 = "zh-cn"
+title                  = "Catmoimoi"
+theme                  = "hugo-theme-stack"
+defaultContentLanguage = "zh"
+hasCJKLanguage         = true
+
+[pagination]
+    pagerSize = 8
+
+[permalinks]
+    post = "/p/:slug/"
+    page = "/:slug/"
+
+[services.disqus]
+    shortname = ""
