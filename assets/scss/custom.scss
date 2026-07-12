@@ -1,4 +1,15 @@
 //----------------------------------------------------
+// 浮动组件 90% 透明度
+[data-scheme="light"] {
+    --card-background: rgba(255, 255, 255, 0.9);
+    --card-background-selected: rgba(234, 234, 234, 0.9);
+}
+[data-scheme="dark"] {
+    --card-background: rgba(66, 66, 66, 0.9);
+    --card-background-selected: rgba(255, 255, 255, 0.14);
+}
+
+//----------------------------------------------------
 // 随机背景图样式
 #random-bg {
     &::after {
