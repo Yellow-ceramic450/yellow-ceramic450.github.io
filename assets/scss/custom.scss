@@ -1,4 +1,39 @@
 //----------------------------------------------------
+// 随机背景图样式
+#random-bg {
+    &::after {
+        content: "";
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.75);
+        z-index: -1;
+    }
+}
+
+[data-scheme="dark"] #random-bg::after {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+// 竖屏手机：裁剪为居中，确保不拉伸变形
+@media (max-width: 768px) {
+    #random-bg {
+        background-position: center 30%;
+        background-size: cover !important;
+    }
+}
+
+// 横屏：宽度撑满，高度可能不够，用 cover 裁剪上下
+@media (orientation: landscape) and (max-height: 500px) {
+    #random-bg {
+        background-size: cover !important;
+        background-position: center center;
+    }
+}
+
+//----------------------------------------------------
 // 页面基本配色
 :root {
     --main-top-padding: 30px;
