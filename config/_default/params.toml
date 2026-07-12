@@ -31,7 +31,19 @@ description    = "记录galgame、技术折腾与生活杂记的个人博客"
     page     = [{ type = "toc" }]
 
 [comments]
-    enabled  = false
+    enabled  = true
+    provider = "waline"
+
+    [comments.waline]
+        serverURL    = "https://comments.catmoimoi.ccwu.cc"
+        lang         = "zh"
+        pageview     = true
+        emoji        = ["https://unpkg.com/@waline/emojis@1.0.1/weibo"]
+        requiredMeta = ["name"]
+
+        [comments.waline.locale]
+            admin       = "博主"
+            placeholder = "写下你的评论..."
 
 [cookies]
     enabled = false
