@@ -1,6 +1,7 @@
 mainSections   = ["post"]
 rssFullContent = true
 favicon        = "/favicon.ico"
+description    = "记录galgame、技术折腾与生活杂记的个人博客"
 
 [footer]
     since = 2026
@@ -9,6 +10,11 @@ favicon        = "/favicon.ico"
     emoji    = "🐾"
     subtitle = "galgame"
     avatar   = "/img/avatar.png"
+
+[opengraph]
+    [opengraph.twitter]
+        site = "catmoimoi"
+        card = "summary_large_image"
 
 [article]
     [article.license]

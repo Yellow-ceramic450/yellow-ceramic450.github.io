@@ -1,6 +1,10 @@
 ---
 title: 关于
-description: 关于这个博客和它的作者。
+description: 关于这个博客和它的作者——优若林。
+keywords:
+    - 关于
+    - 博客
+    - galgame
 date: 2026-07-12
 menu:
     main:

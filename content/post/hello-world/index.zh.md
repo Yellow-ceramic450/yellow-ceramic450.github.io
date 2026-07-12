@@ -1,14 +1,18 @@
 ---
 title: Hello World
 date: 2026-07-12
-description: 博客第一篇文章！
+description: 博客第一篇文章！用 Hugo 搭建个人博客的记录。
+keywords:
+    - 博客
+    - Hugo
+    - 技术
 categories:
     - 日记
 tags:
     - 博客
 ---
 
-这是我博客的第一篇文章！用 Hugo + GitHub Pages 搭建的个人博客正式上线了。
+这是我博客的第一篇文章！用 Hugo + Cloudflare Pages 搭建的个人博客正式上线了。
 
 <!--more-->
 
@@ -20,7 +24,7 @@ tags:
 
 - **Hugo** - 静态网站生成器
 - **hugo-theme-stack** - 卡片式主题
-- **GitHub Pages + Cloudflare Pages** - 免费托管
+- **Cloudflare Pages** - 免费托管
 
 ## 下一步
 

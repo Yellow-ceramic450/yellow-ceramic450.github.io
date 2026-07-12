@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://blog.catmoimoi.ccwu.cc/sitemap.xml

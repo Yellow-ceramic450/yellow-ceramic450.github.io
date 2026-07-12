@@ -5,11 +5,3 @@
 
     [zh.params.sidebar]
         subtitle = "galgame"
-
-[en]
-    label  = "English"
-    title  = "Catmoimoi"
-    weight = 2
-
-    [en.params.sidebar]
-        subtitle = "galgame"
