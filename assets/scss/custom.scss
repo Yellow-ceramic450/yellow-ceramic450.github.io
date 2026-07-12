@@ -1,5 +1,8 @@
 //----------------------------------------------------
-// 浮动组件 90% 透明度
+// 浮动组件 90% 透明度 + 背景穿透
+:root {
+    --body-background: transparent;
+}
 [data-scheme="light"] {
     --card-background: rgba(255, 255, 255, 0.9);
     --card-background-selected: rgba(234, 234, 234, 0.9);
